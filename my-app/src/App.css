@@ -1,0 +1,47 @@
+.App{
+  --sky-blue-crayola: #1BE7FF;
+  --light-green: #6eeb83;
+  --chartreuse-traditional: #e4ff1a;
+  --goldenrod: #e8aa14;
+  --international-orange: #ff5714;
+  --middle-grey: #8b8982;
+  --charcoal: #373f47;
+  --thistle: #cbb3bf;
+  --champagne-pink: #dbc7be;
+  background-color: var(--charcoal);
+  color: white;
+  height: 100vh;
+  position: relative;
+}
+.title{
+  /* top right bottom left */
+  margin: 35vh 0 0 37%;
+  position: absolute;
+  font-size: 5vw;
+  font-family: 'Fredoka One', cursive;
+  letter-spacing: 0.2em;
+}
+.blueLetter{
+  color: var(--sky-blue-crayola)
+}
+.greenLetter{
+  color: var(--light-green)
+}
+.yellowLetter{
+  color: var(--chartreuse-traditional)
+}
+.orangeLetter{
+  color: var(--goldenrod)
+}
+.redLetter{
+  color: var(--international-orange)
+}
+.greyLetter{
+  color: var(--middle-grey)
+}
+.thistleLetter{
+  color: var(--thistle)
+}
+.pinkLetter{
+  color: var(--champagne-pink)
+}
